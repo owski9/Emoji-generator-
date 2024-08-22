@@ -1,0 +1,10 @@
+print("""
+Want to generate one random text?
+[1] Yes
+[2] No
+""")
+choose2 = input("")
+if choose2 == "1":
+    things = ["hi", "hello", ":)"]
+print(random.choice(things))
+choice_one = choice(things)
