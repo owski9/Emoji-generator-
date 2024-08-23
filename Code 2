@@ -1,0 +1,24 @@
+print("""
+Generate an Emoji and text?
+[1] Yes
+[2] No
+""")
+choose = input("")
+if choose == "1":
+    xyx()
+time.sleep(1)
+print("""
+Want to generate one random text?
+[1] Yes
+[2] No
+""")
+choose2 = input("")
+if choose2 == "1":
+    things = ["hi", "hello", ":)"]
+print(random.choice(things))
+choice_one = choice(things)
+input("want to see the random text again? YES or NO")
+if "YES":
+    print(choice_one)
+else:
+    print(":(")
