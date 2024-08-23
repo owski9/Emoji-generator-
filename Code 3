@@ -1,0 +1,4 @@
+ww = ["😁 Have a great day"]*10 + ["🍕 slice to meet you!"]*10 + ["🚀 taking my procrastination to new heights"]*10 + ["⭐  Make today a great day!"]*10 + ["😴 get some rest!"]*10 + ["🌲 Adventure Outdoors!"]*10 + ["📚 Learn Something new!"]*10 + ["🏆 Try a new hobby!"]*10 + ["☃ Build A snowman!"]*10 + ["🍽 Try A new food!"]*10 + ["🕥 take time for yourself"]*10 + ["🕶 you found a secret!"]*1
+def xyx():
+    print(random.choice(ww))
+
